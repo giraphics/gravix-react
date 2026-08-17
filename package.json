@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "React app for map and point-cloud visualisation, built on @giraphics/gravix-engine",
+  "homepage": "https://giraphics.github.io/gravix-react/",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
