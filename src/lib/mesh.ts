@@ -28,7 +28,7 @@ export function spawnDynamicMesh(
     scene: engine.scene,
     name,
     positions: geometry.positionStorage(),
-    colors: geometry.colorStorage() ?? undefined,
+    colors: geometry.colorStorage(),
     indices: geometry.indexStorage(),
     vertexCount: geometry.vertexCount,
     indexCount: geometry.indexCount,
