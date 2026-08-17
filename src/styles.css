@@ -90,8 +90,41 @@ canvas {
   color: var(--muted);
 }
 
-input[type='range'] {
-  width: 190px;
+select {
+  background: #0b0d12;
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 3px 8px;
+  font: inherit;
+}
+
+input[type='number'] {
+  width: 72px;
+  background: #0b0d12;
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 3px 6px;
+  font: inherit;
+}
+
+.params {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px 10px;
+}
+
+.params label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.params input {
+  width: 100%;
 }
 
 .stats {
